@@ -683,8 +683,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='http://t.me/How_to_download_bot'),
-            InlineKeyboardButton(text="Google",'url':f'https://www.imdb.com/title/tt{movieid}
-')
+            InlineKeyboardButton(text='Check on Google"url = f'https://www.google.com/search?q={text}')
             
         ]
     )
